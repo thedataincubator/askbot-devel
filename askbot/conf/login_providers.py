@@ -225,7 +225,11 @@ providers = (
     'Microsoft Azure',
 )
 
-DISABLED_BY_DEFAULT = ('LaunchPad', 'Mozilla Persona', 'OpenStackID')
+DISABLED_BY_DEFAULT = ('AOL', 'Blogger', 'ClaimID', 'Facebook', 'Fedora', 'Flickr', 
+                       'Mozilla Persona', 'Twitter', 'MediaWiki', 'LinkedIn', 
+                       'LiveJournal', 'OpenID', 'Technorati', 'Wordpress', 'Vidoop', 
+                       'Verisign', 'Yahoo', 'identi.ca', 'LaunchPad', 'OpenStackID', 
+                       'Yammer', 'Windows Live', 'Microsoft Azure',)
 
 NEED_EXTRA_SETUP = ('Google Plus', 'Twitter', 'MediaWiki', 'Facebook',
                     'LinkedIn', 'identi.ca', 'Yammer', 'Windows Live', 'Microsoft Azure',)
